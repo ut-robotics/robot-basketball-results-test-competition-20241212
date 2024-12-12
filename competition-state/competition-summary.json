@@ -606,10 +606,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 2159,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1734026000646, "endTime": 1734026002805}]
           }
         ],
         "status": {"result": "unknown"},
@@ -790,77 +790,37 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 7,
-    "robots": [
-      {"id": "wineeurope", "name": "WineEurope"},
-      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"}
-    ],
-    "startingBaskets": ["blue", "magenta"],
+    "id": 8,
+    "robots": [{"id": "mait", "name": "Mait"}, {"id": "k4", "name": "K4"}],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1734025607248, "isValid": true},
-            {"time": 1734025661108, "isValid": true}
-          ],
-          []
-        ],
-        "fouls": [[], [{"time": 1734025621136}]],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60005,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1734025585877, "endTime": 1734025608672},
-          {"startTime": 1734025651213, "endTime": 1734025688423}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1734025750682, "isValid": true},
-            {"time": 1734025757783, "isValid": true},
-            {"time": 1734025847439, "isValid": true}
-          ],
-          []
-        ],
-        "fouls": [[{"time": 1734025818747}], [{"time": 1734025777131}]],
+        "scores": [[], []],
+        "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60017,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 2159,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1734025737644, "endTime": 1734025764764},
-          {"startTime": 1734025803535, "endTime": 1734025811053},
-          {"startTime": 1734025837845, "endTime": 1734025863224}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1734026000646, "endTime": 1734026002805}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "wineeurope", "name": "WineEurope"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-1.1, -0.09],
-      [1.1, 0.09],
-      [2, -0.94],
-      [-2, 0.94],
-      [-0.52, -1.1],
-      [0.52, 1.1],
-      [-2.12, -0.47],
-      [2.12, 0.47],
-      [-1.86, -0.6],
-      [1.86, 0.6]
+      [1.61, -1.36],
+      [-1.61, 1.36],
+      [-2.18, -0.64],
+      [2.18, 0.64],
+      [-1.66, -0.66],
+      [1.66, 0.66],
+      [0.33, -1.23],
+      [-0.33, 1.23],
+      [0.78, 1.1],
+      [-0.78, -1.1]
     ]
   }
 }
