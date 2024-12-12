@@ -3,7 +3,7 @@
   "robots": [{"id": "oopsie", "name": "Oopsie"}, {"id": "k4", "name": "K4"}],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -60,7 +60,7 @@
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
       "hasEnded": true,
-      "isConfirmed": false,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [{"startTime": 1734031386985, "endTime": 1734031447070}]
     }
