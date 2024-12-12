@@ -1,0 +1,34 @@
+{
+  "id": 16,
+  "robots": [
+    {"id": "beat-diesel", "name": "Beat Diesel"},
+    {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.84, -0.76],
+    [-0.84, 0.76],
+    [0.06, 0.45],
+    [-0.06, -0.45],
+    [-0.44, 1.3],
+    [0.44, -1.3],
+    [-0.32, -1.09],
+    [0.32, 1.09],
+    [-1.39, 0.99],
+    [1.39, -0.99]
+  ]
+}
