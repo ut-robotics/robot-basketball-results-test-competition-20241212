@@ -987,7 +987,7 @@
                 {"time": 1734028113013, "isValid": true}
               ]
             ],
-            "fouls": [[{"time": 1734028073816}], []],
+            "fouls": [[{"time": 1734028073816}, {"time": 1734028125832}], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
@@ -1242,7 +1242,7 @@
             {"time": 1734028113013, "isValid": true}
           ]
         ],
-        "fouls": [[{"time": 1734028073816}], []],
+        "fouls": [[{"time": 1734028073816}, {"time": 1734028125832}], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
