@@ -3,7 +3,7 @@
   "robots": [{"id": "k4", "name": "K4"}, {"id": "plus-aura", "name": "+aura"}],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -32,18 +32,19 @@
         [],
         [
           {"time": 1734024066335, "isValid": true},
-          {"time": 1734024076537, "isValid": true}
+          {"time": 1734024076537, "isValid": true},
+          {"time": 1734024092807, "isValid": true}
         ]
       ],
       "fouls": [[{"time": 1734023997058}, {"time": 1734024049580}], []],
       "baskets": ["blue", "magenta"],
-      "hasEnded": false,
-      "isConfirmed": false,
+      "hasEnded": true,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1734023965956, "endTime": 1734023971395},
         {"startTime": 1734024020572, "endTime": 1734024042238},
-        {"startTime": 1734024063476, "endTime": null}
+        {"startTime": 1734024063476, "endTime": 1734024096436}
       ]
     }
   ],
