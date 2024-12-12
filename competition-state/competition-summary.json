@@ -50,12 +50,13 @@
               [
                 {"time": 1734022717722, "isValid": false},
                 {"time": 1734022730013, "isValid": false},
-                {"time": 1734022745935, "isValid": false}
+                {"time": 1734022745935, "isValid": false},
+                {"time": 1734023072323, "isValid": false}
               ],
               [
                 {"time": 1734022674230, "isValid": false},
                 {"time": 1734022689091, "isValid": false},
-                {"time": 1734022938658, "isValid": true}
+                {"time": 1734022938658, "isValid": false}
               ]
             ],
             "fouls": [[], []],
@@ -337,12 +338,13 @@
           [
             {"time": 1734022717722, "isValid": false},
             {"time": 1734022730013, "isValid": false},
-            {"time": 1734022745935, "isValid": false}
+            {"time": 1734022745935, "isValid": false},
+            {"time": 1734023072323, "isValid": false}
           ],
           [
             {"time": 1734022674230, "isValid": false},
             {"time": 1734022689091, "isValid": false},
-            {"time": 1734022938658, "isValid": true}
+            {"time": 1734022938658, "isValid": false}
           ]
         ],
         "fouls": [[], []],
