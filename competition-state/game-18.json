@@ -29,13 +29,19 @@
       ]
     },
     {
-      "scores": [[], []],
+      "scores": [
+        [
+          {"time": 1734031265991, "isValid": true},
+          {"time": 1734031273271, "isValid": true}
+        ],
+        [{"time": 1734031257751, "isValid": true}]
+      ],
       "fouls": [[], []],
       "baskets": ["blue", "magenta"],
       "hasEnded": false,
       "isConfirmed": false,
       "roundMaxLength": 60000,
-      "runs": []
+      "runs": [{"startTime": 1734031248384, "endTime": null}]
     }
   ],
   "ballPlacement": [
