@@ -1,0 +1,31 @@
+{
+  "id": 5,
+  "robots": [{"id": "mait", "name": "Mait"}, {"id": "harm", "name": "HARM"}],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-0.94, -0.5],
+    [0.94, 0.5],
+    [0.37, -0.18],
+    [-0.37, 0.18],
+    [0.86, -1.38],
+    [-0.86, 1.38],
+    [1.47, 0.69],
+    [-1.47, -0.69],
+    [-0.68, -0.13],
+    [0.68, 0.13]
+  ]
+}

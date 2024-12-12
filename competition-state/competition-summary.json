@@ -14,5 +14,301 @@
     {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
     {"id": "wineeurope", "name": "WineEurope"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 4,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "wineeurope", "name": "WineEurope"},
+      {"id": "roboorikud", "name": "Roboorikud"},
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+      {"id": "k4", "name": "K4"},
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "pelta-x", "name": "Pelta X"},
+      {"id": "beat-diesel", "name": "Beat Diesel"},
+      {"id": "oopsie", "name": "Oopsie"},
+      {"id": "mait", "name": "Mait"},
+      {"id": "harm", "name": "HARM"}
+    ],
+    "roundCount": 4,
+    "games": [
+      {
+        "id": 1,
+        "robots": [
+          {"id": "wineeurope", "name": "WineEurope"},
+          {"id": "roboorikud", "name": "Roboorikud"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-2.07, -0.64],
+          [2.07, 0.64],
+          [-0.49, -1.09],
+          [0.49, 1.09],
+          [-1.4, 0.39],
+          [1.4, -0.39],
+          [-1.2, -0.1],
+          [1.2, 0.1],
+          [1.6, 1.24],
+          [-1.6, -1.24]
+        ]
+      },
+      {
+        "id": 2,
+        "robots": [
+          {"id": "marvin", "name": "Marvin"},
+          {
+            "id": "sometimes-lose-always-win",
+            "name": "Sometimes Lose Always Win"
+          }
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.22, -1.21],
+          [-1.22, 1.21],
+          [-0.01, -1.19],
+          [0.01, 1.19],
+          [-0.79, 0.33],
+          [0.79, -0.33],
+          [-0.48, -0.15],
+          [0.48, 0.15],
+          [0.13, -0.49],
+          [-0.13, 0.49]
+        ]
+      },
+      {
+        "id": 3,
+        "robots": [
+          {"id": "k4", "name": "K4"},
+          {"id": "plus-aura", "name": "+aura"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.59, 1.16],
+          [-1.59, -1.16],
+          [1.65, 0.47],
+          [-1.65, -0.47],
+          [-2.01, -0.7],
+          [2.01, 0.7],
+          [1.99, -1.18],
+          [-1.99, 1.18],
+          [1.45, 0.86],
+          [-1.45, -0.86]
+        ]
+      },
+      {
+        "id": 4,
+        "robots": [
+          {"id": "beat-diesel", "name": "Beat Diesel"},
+          {"id": "oopsie", "name": "Oopsie"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.74, 0.9],
+          [0.74, -0.9],
+          [-0.01, 1.45],
+          [0.01, -1.45],
+          [0.36, -0.38],
+          [-0.36, 0.38],
+          [-1.4, -0.41],
+          [1.4, 0.41],
+          [-1.53, 1.19],
+          [1.53, -1.19]
+        ]
+      },
+      {
+        "id": 5,
+        "robots": [
+          {"id": "mait", "name": "Mait"},
+          {"id": "harm", "name": "HARM"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.94, -0.5],
+          [0.94, 0.5],
+          [0.37, -0.18],
+          [-0.37, 0.18],
+          [0.86, -1.38],
+          [-0.86, 1.38],
+          [1.47, 0.69],
+          [-1.47, -0.69],
+          [-0.68, -0.13],
+          [0.68, 0.13]
+        ]
+      }
+    ],
+    "byes": [{"robotID": "pelta-x"}],
+    "robotScores": [
+      {
+        "robot": {"id": "pelta-x", "name": "Pelta X"},
+        "score": 1,
+        "tieBreakScore": 0,
+        "rank": 1
+      },
+      {
+        "robot": {"id": "wineeurope", "name": "WineEurope"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 2
+      },
+      {
+        "robot": {"id": "roboorikud", "name": "Roboorikud"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 3
+      },
+      {
+        "robot": {"id": "marvin", "name": "Marvin"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 4
+      },
+      {
+        "robot": {
+          "id": "sometimes-lose-always-win",
+          "name": "Sometimes Lose Always Win"
+        },
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 5
+      },
+      {
+        "robot": {"id": "k4", "name": "K4"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 6
+      },
+      {
+        "robot": {"id": "plus-aura", "name": "+aura"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 7
+      },
+      {
+        "robot": {"id": "beat-diesel", "name": "Beat Diesel"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 8
+      },
+      {
+        "robot": {"id": "oopsie", "name": "Oopsie"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 9
+      },
+      {
+        "robot": {"id": "mait", "name": "Mait"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 10
+      },
+      {
+        "robot": {"id": "harm", "name": "HARM"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 11
+      }
+    ],
+    "robotStartingBaskets": {
+      "wineeurope": ["magenta"],
+      "roboorikud": ["blue"],
+      "marvin": ["blue"],
+      "sometimes-lose-always-win": ["magenta"],
+      "k4": ["magenta"],
+      "plus-aura": ["blue"],
+      "pelta-x": [],
+      "beat-diesel": ["magenta"],
+      "oopsie": ["blue"],
+      "mait": ["blue"],
+      "harm": ["magenta"]
+    },
+    "hasEnded": false
+  }
 }
