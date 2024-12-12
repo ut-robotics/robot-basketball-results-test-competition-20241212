@@ -6,7 +6,15 @@
   "hasEnded": false,
   "rounds": [
     {
-      "scores": [[{"time": 1734026087314, "isValid": true}], []],
+      "scores": [
+        [
+          {"time": 1734026087314, "isValid": true},
+          {"time": 1734026116323, "isValid": true},
+          {"time": 1734026124926, "isValid": true},
+          {"time": 1734026130970, "isValid": true}
+        ],
+        []
+      ],
       "fouls": [
         [{"time": 1734026096481}],
         [{"time": 1734026014125}, {"time": 1734026059757}]
@@ -18,7 +26,8 @@
       "runs": [
         {"startTime": 1734026000646, "endTime": 1734026002805},
         {"startTime": 1734026048109, "endTime": 1734026052357},
-        {"startTime": 1734026079157, "endTime": 1734026088615}
+        {"startTime": 1734026079157, "endTime": 1734026088615},
+        {"startTime": 1734026109214, "endTime": null}
       ]
     }
   ],
