@@ -711,7 +711,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -755,14 +755,20 @@
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": true,
-            "isConfirmed": false,
+            "isConfirmed": true,
             "duration": 60071,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [{"startTime": 1734026931917, "endTime": 1734026991988}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "pelta-x", "name": "Pelta X"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [-1.3, 0.61],
@@ -818,43 +824,43 @@
     "byes": [{"robotID": "pelta-x"}, {"robotID": "plus-aura"}],
     "robotScores": [
       {
+        "robot": {"id": "pelta-x", "name": "Pelta X"},
+        "score": 2,
+        "tieBreakScore": 1,
+        "rank": 1
+      },
+      {
         "robot": {"id": "plus-aura", "name": "+aura"},
         "score": 2,
         "tieBreakScore": 0.19999999999999996,
-        "rank": 1
+        "rank": 2
       },
       {
         "robot": {"id": "mait", "name": "Mait"},
         "score": 1.8,
         "tieBreakScore": 0.3999999999999999,
-        "rank": 2
+        "rank": 3
+      },
+      {
+        "robot": {"id": "oopsie", "name": "Oopsie"},
+        "score": 1,
+        "tieBreakScore": 2.8,
+        "rank": 4
       },
       {
         "robot": {"id": "wineeurope", "name": "WineEurope"},
         "score": 1,
         "tieBreakScore": 1,
-        "rank": 3
+        "rank": 5
       },
       {
         "robot": {"id": "roboorikud", "name": "Roboorikud"},
         "score": 1,
         "tieBreakScore": 1,
-        "rank": 4
-      },
-      {
-        "robot": {"id": "oopsie", "name": "Oopsie"},
-        "score": 1,
-        "tieBreakScore": 0.8,
-        "rank": 5
-      },
-      {
-        "robot": {"id": "marvin", "name": "Marvin"},
-        "score": 1,
-        "tieBreakScore": 0,
         "rank": 6
       },
       {
-        "robot": {"id": "pelta-x", "name": "Pelta X"},
+        "robot": {"id": "marvin", "name": "Marvin"},
         "score": 1,
         "tieBreakScore": 0,
         "rank": 7
@@ -910,7 +916,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -954,14 +960,20 @@
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
         "hasEnded": true,
-        "isConfirmed": false,
+        "isConfirmed": true,
         "duration": 60071,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [{"startTime": 1734026931917, "endTime": 1734026991988}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "pelta-x", "name": "Pelta X"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [-1.3, 0.61],
