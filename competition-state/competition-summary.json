@@ -1169,15 +1169,27 @@
             ]
           },
           {
-            "scores": [[], []],
+            "scores": [
+              [],
+              [
+                {"time": 1734029266355, "isValid": true},
+                {"time": 1734029273653, "isValid": true},
+                {"time": 1734029277652, "isValid": true},
+                {"time": 1734029281392, "isValid": true},
+                {"time": 1734029290425, "isValid": true}
+              ]
+            ],
             "fouls": [[{"time": 1734029199197}], []],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
+            "hasEnded": true,
             "isConfirmed": false,
-            "duration": 18641,
+            "duration": 60018,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1734029158158, "endTime": 1734029176799}]
+            "runs": [
+              {"startTime": 1734029158158, "endTime": 1734029176799},
+              {"startTime": 1734029258189, "endTime": 1734029299566}
+            ]
           }
         ],
         "status": {"result": "unknown"},
@@ -1361,15 +1373,27 @@
         ]
       },
       {
-        "scores": [[], []],
+        "scores": [
+          [],
+          [
+            {"time": 1734029266355, "isValid": true},
+            {"time": 1734029273653, "isValid": true},
+            {"time": 1734029277652, "isValid": true},
+            {"time": 1734029281392, "isValid": true},
+            {"time": 1734029290425, "isValid": true}
+          ]
+        ],
         "fouls": [[{"time": 1734029199197}], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
+        "hasEnded": true,
         "isConfirmed": false,
-        "duration": 18641,
+        "duration": 60018,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1734029158158, "endTime": 1734029176799}]
+        "runs": [
+          {"startTime": 1734029158158, "endTime": 1734029176799},
+          {"startTime": 1734029258189, "endTime": 1734029299566}
+        ]
       }
     ],
     "status": {"result": "unknown"},
