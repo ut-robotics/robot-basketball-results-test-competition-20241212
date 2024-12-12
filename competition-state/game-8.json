@@ -67,7 +67,7 @@
         ],
         [
           {"time": 1734026453431, "isValid": true},
-          {"time": 1734026457992, "isValid": true},
+          {"time": 1734026457992, "isValid": false},
           {"time": 1734026465721, "isValid": true},
           {"time": 1734026471029, "isValid": true},
           {"time": 1734026495169, "isValid": false}
