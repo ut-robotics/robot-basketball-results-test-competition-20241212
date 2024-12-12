@@ -146,10 +146,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 23,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1734023469347, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -367,95 +367,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1,
+    "id": 2,
     "robots": [
-      {"id": "wineeurope", "name": "WineEurope"},
-      {"id": "roboorikud", "name": "Roboorikud"}
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1734022717722, "isValid": false},
-            {"time": 1734022730013, "isValid": false},
-            {"time": 1734022745935, "isValid": false},
-            {"time": 1734023072323, "isValid": false},
-            {"time": 1734023198243, "isValid": true},
-            {"time": 1734023223544, "isValid": true},
-            {"time": 1734023233064, "isValid": true},
-            {"time": 1734023245049, "isValid": true}
-          ],
-          [
-            {"time": 1734022674230, "isValid": false},
-            {"time": 1734022689091, "isValid": false},
-            {"time": 1734022938658, "isValid": false},
-            {"time": 1734023199922, "isValid": true},
-            {"time": 1734023205317, "isValid": true},
-            {"time": 1734023211351, "isValid": true},
-            {"time": 1734023219911, "isValid": true},
-            {"time": 1734023226612, "isValid": true},
-            {"time": 1734023231778, "isValid": true},
-            {"time": 1734023241382, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60013,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1734023184396, "endTime": 1734023244409}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1734023349678, "isValid": true},
-            {"time": 1734023358370, "isValid": true},
-            {"time": 1734023383407, "isValid": true}
-          ],
-          [
-            {"time": 1734023349723, "isValid": true},
-            {"time": 1734023356573, "isValid": true},
-            {"time": 1734023363806, "isValid": true},
-            {"time": 1734023371421, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1734023324378}], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60100,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 23,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1734023298028, "endTime": 1734023307908},
-          {"startTime": 1734023336492, "endTime": 1734023386712}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1734023469347, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "roboorikud", "name": "Roboorikud"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-2.07, -0.64],
-      [2.07, 0.64],
-      [-0.49, -1.09],
-      [0.49, 1.09],
-      [-1.4, 0.39],
-      [1.4, -0.39],
-      [-1.2, -0.1],
-      [1.2, 0.1],
-      [1.6, 1.24],
-      [-1.6, -1.24]
+      [1.22, -1.21],
+      [-1.22, 1.21],
+      [-0.01, -1.19],
+      [0.01, 1.19],
+      [-0.79, 0.33],
+      [0.79, -0.33],
+      [-0.48, -0.15],
+      [0.48, 0.15],
+      [0.13, -0.49],
+      [-0.13, 0.49]
     ]
   }
 }
