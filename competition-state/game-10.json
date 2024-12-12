@@ -1,0 +1,34 @@
+{
+  "id": 10,
+  "robots": [
+    {"id": "roboorikud", "name": "Roboorikud"},
+    {"id": "marvin", "name": "Marvin"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.02, 0.35],
+    [-0.02, -0.35],
+    [1.86, -0.23],
+    [-1.86, 0.23],
+    [-1.32, -0.61],
+    [1.32, 0.61],
+    [1.25, 1.26],
+    [-1.25, -1.26],
+    [-1.03, 0.86],
+    [1.03, -0.86]
+  ]
+}

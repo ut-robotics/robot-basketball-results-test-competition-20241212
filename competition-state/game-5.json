@@ -3,7 +3,7 @@
   "robots": [{"id": "mait", "name": "Mait"}, {"id": "harm", "name": "HARM"}],
   "startingBaskets": ["blue", "magenta"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -46,7 +46,7 @@
       "fouls": [[], [{"time": 1734024910135}, {"time": 1734024978858}]],
       "baskets": ["magenta", "blue"],
       "hasEnded": true,
-      "isConfirmed": false,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1734024890996, "endTime": 1734024903103},

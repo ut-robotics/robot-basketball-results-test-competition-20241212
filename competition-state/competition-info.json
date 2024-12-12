@@ -34,20 +34,20 @@
       {"id": "harm", "name": "HARM"}
     ],
     "roundCount": 4,
-    "gameIDs": [1, 2, 3, 4, 5],
-    "byes": [{"robotID": "pelta-x"}],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "byes": [{"robotID": "pelta-x"}, {"robotID": "plus-aura"}],
     "robotStartingBaskets": {
-      "wineeurope": ["magenta"],
-      "roboorikud": ["blue"],
-      "marvin": ["blue"],
-      "sometimes-lose-always-win": ["magenta"],
-      "k4": ["magenta"],
+      "wineeurope": ["magenta", "blue"],
+      "roboorikud": ["blue", "magenta"],
+      "marvin": ["blue", "blue"],
+      "sometimes-lose-always-win": ["magenta", "magenta"],
+      "k4": ["magenta", "blue"],
       "plus-aura": ["blue"],
-      "pelta-x": [],
-      "beat-diesel": ["magenta"],
-      "oopsie": ["blue"],
-      "mait": ["blue"],
-      "harm": ["magenta"]
+      "pelta-x": ["blue"],
+      "beat-diesel": ["magenta", "magenta"],
+      "oopsie": ["blue", "magenta"],
+      "mait": ["blue", "magenta"],
+      "harm": ["magenta", "blue"]
     },
     "hasEnded": false
   }
