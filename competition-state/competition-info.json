@@ -1,6 +1,18 @@
 {
   "id": "test-competition-20241212",
   "name": "Test Competition 2024-12-12",
-  "robots": [],
+  "robots": [
+    {"id": "plus-aura", "name": "+aura"},
+    {"id": "beat-diesel", "name": "Beat Diesel"},
+    {"id": "harm", "name": "HARM"},
+    {"id": "k4", "name": "K4"},
+    {"id": "mait", "name": "Mait"},
+    {"id": "marvin", "name": "Marvin"},
+    {"id": "oopsie", "name": "Oopsie"},
+    {"id": "pelta-x", "name": "Pelta X"},
+    {"id": "roboorikud", "name": "Roboorikud"},
+    {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+    {"id": "wineeurope", "name": "WineEurope"}
+  ],
   "tournament": null
 }
