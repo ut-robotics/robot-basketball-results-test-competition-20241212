@@ -49,7 +49,8 @@
             "scores": [
               [
                 {"time": 1734022717722, "isValid": false},
-                {"time": 1734022730013, "isValid": true}
+                {"time": 1734022730013, "isValid": true},
+                {"time": 1734022745935, "isValid": true}
               ],
               [
                 {"time": 1734022674230, "isValid": false},
@@ -334,7 +335,8 @@
         "scores": [
           [
             {"time": 1734022717722, "isValid": false},
-            {"time": 1734022730013, "isValid": true}
+            {"time": 1734022730013, "isValid": true},
+            {"time": 1734022745935, "isValid": true}
           ],
           [
             {"time": 1734022674230, "isValid": false},
