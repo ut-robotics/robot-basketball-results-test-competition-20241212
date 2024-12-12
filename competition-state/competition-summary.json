@@ -1603,7 +1603,13 @@
             ]
           },
           {
-            "scores": [[{"time": 1734031750100, "isValid": true}], []],
+            "scores": [
+              [
+                {"time": 1734031750100, "isValid": true},
+                {"time": 1734031876089, "isValid": true}
+              ],
+              []
+            ],
             "fouls": [
               [{"time": 1734031853517}],
               [{"time": 1734031757944}, {"time": 1734031797089}]
@@ -1611,13 +1617,14 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 14013,
+            "duration": 23688,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1734031742960, "endTime": 1734031747841},
               {"startTime": 1734031785936, "endTime": 1734031790395},
-              {"startTime": 1734031837505, "endTime": 1734031842178}
+              {"startTime": 1734031837505, "endTime": 1734031842178},
+              {"startTime": 1734031866418, "endTime": null}
             ]
           }
         ],
@@ -1802,7 +1809,13 @@
         ]
       },
       {
-        "scores": [[{"time": 1734031750100, "isValid": true}], []],
+        "scores": [
+          [
+            {"time": 1734031750100, "isValid": true},
+            {"time": 1734031876089, "isValid": true}
+          ],
+          []
+        ],
         "fouls": [
           [{"time": 1734031853517}],
           [{"time": 1734031757944}, {"time": 1734031797089}]
@@ -1810,13 +1823,14 @@
         "baskets": ["magenta", "blue"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 14013,
+        "duration": 23688,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1734031742960, "endTime": 1734031747841},
           {"startTime": 1734031785936, "endTime": 1734031790395},
-          {"startTime": 1734031837505, "endTime": 1734031842178}
+          {"startTime": 1734031837505, "endTime": 1734031842178},
+          {"startTime": 1734031866418, "endTime": null}
         ]
       }
     ],
